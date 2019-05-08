@@ -1,0 +1,10 @@
+gem install bundler
+bundle init
+bundle install
+
+cucumber --version
+cucumber --init
+
+
+cucumber --format html
+cucumber --format html --out=log/feature.html
